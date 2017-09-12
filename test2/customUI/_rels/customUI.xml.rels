@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+    <Relationship Id="bear" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/bear.png"/>
+    <Relationship Id="bucket" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/bucket.png"/>
+    <Relationship Id="calendar" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/calendar.png"/>
+    <Relationship Id="insertBalloonRed" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertBalloonRed.png"/>
+    <Relationship Id="insertBalloonYellow" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertBalloonYellow.png"/>
+    <Relationship Id="insertBalloonBlue" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertBalloonBlue.png"/>
+    <Relationship Id="insertBalloonGreen" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertBalloonGreen.png"/>
+    <Relationship Id="insertLineCallout1Red" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertLineCallout1Red.png"/>
+    <Relationship Id="insertLineCallout1Yellow" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertLineCallout1Yellow.png"/>
+    <Relationship Id="insertLineCallout1Blue" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertLineCallout1Blue.png"/>
+    <Relationship Id="insertLineCallout1Green" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertLineCallout1Green.png"/>
+    <Relationship Id="insertRectangleRed" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangleRed.png"/>
+    <Relationship Id="insertRectangleYellow" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangleYellow.png"/>
+    <Relationship Id="insertRectangleBlue" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangleBlue.png"/>
+    <Relationship Id="insertRectangleGreen" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangleGreen.png"/>
+    <Relationship Id="insertRectangularCalloutRed" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangularCalloutRed.png"/>
+    <Relationship Id="insertRectangularCalloutYellow" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangularCalloutYellow.png"/>
+    <Relationship Id="insertRectangularCalloutBlue" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangularCalloutBlue.png"/>
+    <Relationship Id="insertRectangularCalloutGreen" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertRectangularCalloutGreen.png"/>
+    <Relationship Id="insertEmphasisRectangle" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertEmphasisRectangle.png"/>
+    <Relationship Id="insertEmphasisOval" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/insertEmphasisOval.png"/>
+    <Relationship Id="ProtectDocument" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/protectDocument.png"/>
+    <Relationship Id="convertAlphanumericToHalf" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        Target="images/convertAlphanumericToHalf.png"/>
+</Relationships>
