@@ -2,9 +2,9 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
   <ribbon>
     <tabs>
-      <!-- tab start : AnyTools -->
-      <!--<tab id="any_tools_tab" insertBeforeMso="TabHome" label="AnyTools"> -->
-      <tab id="Any_tools_tab" label="AnyTools">
+      <!-- tab start : Ohina -->
+      <!--<tab id="Ohina_tab" insertBeforeMso="TabHome" label="Ohina"> -->
+      <tab id="Ohina_tab" label="Ohina">
         <!-- group start : 画像関係のツール -->
         <group id="standerd_shape_group" label="オブジェクト機能" imageMso="ShapesInsertGallery" visible="true">
 
@@ -74,7 +74,7 @@
             <button id="InsertRectangularCalloutGreen" size="large" label="四角吹き出し" image="RectangularCalloutGreen" onAction="RibbonAction.main" />
         </group>
         <!-- group end : shape group  -->
-        
+
         <!-- group start :  document_group  -->
         <group id="document_group" label="文書支援" visible="true">
             <!-- 強調 -->
@@ -88,7 +88,7 @@
         <!-- group start : 縮小表示用ダミー -->
         <group id="dummy" visible="false" />
       </tab>
-      <!-- tab end : AnyTools -->
+      <!-- tab end : Ohina -->
     </tabs>
   </ribbon>
 </customUI>
