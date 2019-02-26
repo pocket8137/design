@@ -1,0 +1,43 @@
+Sub tableFont()
+
+    Dim cells() As String
+    Dim r_cnt As Long ''行数格納用
+    Dim c_cnt As Long ''列数格納用
+    Dim r As Long ''行方向ループのカウンタ
+    Dim c As Long ''列方向ループのカウンタ
+
+    On Error GoTo ERR_HNDL
+
+    If 0 < InStr(ActiveWindow.Selection.ShapeRange.Name, "Table") Then
+
+        With ActiveWindow.Selection.ShapeRange.Table
+
+            r_cnt = .Rows.Count
+            c_cnt = .Columns.Count
+            ReDim cells(1 To r_cnt, 1 To c_cnt)
+
+            For r = 1 To r_cnt
+              For c = 1 To c_cnt
+
+                If .Cell(r, c).Selected Then
+                    .Cell(r, c).Shape.TextFrame.TextRange.Font.Name = "Meirio UI" 
+                End If
+                .Cell(r, c).Shape.TextFrame.TextRange.Font.Color = vbRed
+                .Cell(r, c).Shape.TextFrame.TextRange.Text = r * c
+                cells(r, c) = _
+                  .Cell(r, c).Shape.TextFrame.TextRange.Text
+              Next c
+            Next r
+
+        End With
+
+    Else
+
+        ActiveWindow.Selection.TextRange.Font.Name = "Meirio UI" 
+
+    End If
+
+Exit Sub
+
+End Sub
+</pre>

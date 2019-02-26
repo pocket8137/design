@@ -2,9 +2,9 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
   <ribbon>
     <tabs>
-      <!-- tab start : Ohina -->
-      <!--<tab id="Ohina_tab" insertBeforeMso="TabHome" label="Ohina"> -->
-      <tab id="Ohina_tab" label="Ohina">
+      <!-- tab start : OhinaWork -->
+      <!--<tab id="ohina_work_tab" insertBeforeMso="TabHome" label="OhinaWork"> -->
+      <tab id="ohina_work_tab" label="OhinaWork">
         <!-- group start : 画像関係のツール -->
         <group id="standerd_shape_group" label="オブジェクト機能" imageMso="ShapesInsertGallery" visible="true">
 
@@ -88,7 +88,7 @@
         <!-- group start : 縮小表示用ダミー -->
         <group id="dummy" visible="false" />
       </tab>
-      <!-- tab end : Ohina -->
+      <!-- tab end : OhinaWork -->
     </tabs>
   </ribbon>
 </customUI>
